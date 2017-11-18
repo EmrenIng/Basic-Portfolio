@@ -47,6 +47,10 @@ hr {
 	padding-bottom: 15px;
 	
 }
+p{
+	
+}
+
 
 
 /*HEADER*/
@@ -112,6 +116,7 @@ a:active {
 	border: 1px solid #dddddd;
 	left: 150px;
 	top: 130px;
+	margin-bottom: 100px;
 
 }
 .selfImage {
@@ -119,8 +124,13 @@ a:active {
 	height: 150px;
 	float: left;
 	padding: 0px 20px 15px 33px;
-
 }
+.ds {
+	padding: 30px;
+	padding-top: 0px;
+	line-height: 200%;
+	letter-spacing: .5px;
+	}
 /*CONTACT PAGE*/
 form {
 	padding: 0px 0px 15px 33px;
@@ -154,8 +164,38 @@ form input[type=submit]{
     display: inline-block;
     font-size: 16px;
 }
+/*PORTFOLIO*/
 
+.imggrid {
+	position: relative;
+	width:250px;
+	float: left;
+	padding: 30px;
+  
+}
 
+.imggrid img {
+	position: relative;	
+	width: 280px;
+	height:200px;
+    display: block;
+}
+.imggrid img:hover {
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+}
+.imgtext {
+  color: white;
+  background-color: #4aaaa5;
+  width: 280px;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 15px;
+  text-align: center;
+  position: absolute;
+  top: 63%;
+  left: 30px;
+}
 /*CONTACT BOX*/
 .contactBox {
 	background-color: #fff;
